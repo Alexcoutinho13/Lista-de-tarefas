@@ -8,23 +8,19 @@
     <title>Estudando JavaScript</title>
 </head>
 <body>
+    <div class="alerta">
+        <h3>[ERRO]Digite uma tarefa válida!</h3>
+        <i class="fa fa-close"></i>
+    </div>
     <h1>Lista de Tarefas</h1>
     <div id="lista">
         <div class="head">
-            <input type="text" name="input" id="input-texto" placeholder="O que tenho que fazer...">
+            <input type="text" name="input" id="input-texto" placeholder="O que tenho que fazer..." autofocus>
             <button>Adicionar</button>
         </div>
-        <div class="body">
-            <div class="icon" style="color: green;">
-                <i class="fa fa-check-circle"></i>
-            </div>
-            <div class="tarefa">
-                <p>Tarefas a Realizar</p>
-            </div>
-            <div class="icon" style="color: rgba(255, 0, 0, 0.932);">
-                <i class="fa fa-trash"></i>
-            </div>
-        </div>
+            <ul class="minha-lista">
+                
+            </ul>
     </div>
     
     <script src="script.js"></script>
